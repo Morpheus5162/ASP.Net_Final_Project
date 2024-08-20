@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/Content/Images/Final_Project_Background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+} 
+
+#imgHolder {
+    max-width: 500px; /* Adjust based on your design */
+    max-height: 500px; /* Adjust based on your design */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Hide overflow if image is larger than container */
+}
+
+#imgHolder #logo {
+    max-width: 100%; /* Ensure image fits within the container */
+    max-height: 100%; /* Ensure image fits within the container */
+    height: auto;
+    width: auto; /* Maintain aspect ratio */
+}
+
+.btn-light {
+    background-color: transparent;
+    border: none;
+    color: #6c757d; /* Adjust color to fit your design */
+}
+
+.form-floating {
+    position: relative;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#eyeIcon {
+    width: 2.75rem; /* Adjust size as needed */
+    height: 2.75rem;
+}
